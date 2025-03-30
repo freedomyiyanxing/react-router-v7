@@ -21,7 +21,7 @@ A modern, production-ready template for building full-stack React applications u
 Install the dependencies:
 
 ```bash
-npm install
+yarn install
 ```
 
 ### Development
@@ -29,7 +29,7 @@ npm install
 Start the development server with HMR:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Your application will be available at `http://localhost:5173`.
@@ -39,7 +39,7 @@ Your application will be available at `http://localhost:5173`.
 Create a production build:
 
 ```bash
-npm run build
+yarn build
 ```
 
 ## Deployment
@@ -49,10 +49,10 @@ npm run build
 To build and run using Docker:
 
 ```bash
-docker build -t my-app .
+docker build -t my-src .
 
 # Run the container
-docker run -p 3000:3000 my-app
+docker run -p 3000:3000 my-src
 ```
 
 The containerized application can be deployed to any platform that supports Docker, including:
